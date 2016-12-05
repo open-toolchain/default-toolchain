@@ -1,0 +1,6 @@
+---
+name: "Cadena de herramientas de Continuous Delivery"
+description: "Esta cadena de herramientas incluye herramientas para desarrollar y desplegar su app. En función de su app, cuando cree la cadena de herramientas, el repositorio de GitHub estará vacío o bien contendrá código fuente de su app.\n\nPara comenzar, pulse **Crear**."
+$deploy.title: "MicroServices Deploy Stage"
+$deploy.longDescription: "Delivery Pipeline automatiza el despliegue continuo."
+$deploy.form.description: "Descripción"

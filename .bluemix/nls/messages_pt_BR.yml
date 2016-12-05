@@ -1,0 +1,6 @@
+---
+name: "Cadeia de ferramentas do Continuous Delivery"
+description: "Esta cadeia de ferramentas inclui ferramentas para desenvolver e implementar seu app. Dependendo do seu app, ao criar a cadeia de ferramentas, o repositório GitHub estará vazio ou conterá o código de origem do seu app.\n\nPara iniciar, clique em **Criar**."
+$deploy.title: "Estágio de Implementação de MicroServices"
+$deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
+$deploy.form.description: "Descrição"

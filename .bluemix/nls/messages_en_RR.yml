@@ -1,0 +1,6 @@
+---
+name: "Continuous Delivery Toolchain~otc-ui388"
+description: "This toolchain includes tools to develop and deploy your app. Depending on your app, when you create the toolchain, the GitHub repository will either be empty or will contain source code from your app.\n\nTo get started, click **Create**.~otc-ui389"
+$deploy.title: "MicroServices Deploy Stage~otc-ui390"
+$deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui391"
+$deploy.form.description: "Description~otc-ui392"

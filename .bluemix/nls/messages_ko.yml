@@ -1,0 +1,6 @@
+---
+name: "Continuous Delivery 도구 체인"
+description: "이 도구 체인에는 앱을 개발하고 배치하는 도구가 포함되어 있습니다. 앱에 따라서 도구 체인을 작성할 때 GitHub 저장소가 비어 있거나 이 저장소에 앱의 소스 코드가 포함됩니다. \n\n계속하려면 **작성**을 클릭하십시오."
+$deploy.title: "MicroServices 배치 단계"
+$deploy.longDescription: "Delivery Pipeline은 연속 배치를 자동화합니다."
+$deploy.form.description: "설명"

@@ -1,0 +1,6 @@
+---
+name: "Continuous Delivery ツールチェーン"
+description: "このツールチェーンには、アプリを開発およびデプロイするためのツールが含まれています。 ユーザーのアプリ次第で、このツールチェーンを作成した時、GitHub リポジトリーは空になるか、ユーザーのアプリのソース・コードを含みます。\n\n開始するには、「作成」をクリックします。"
+$deploy.title: "MicroServices のデプロイ・ステージ"
+$deploy.longDescription: "Delivery Pipeline は、継続的デプロイメントを自動化します。"
+$deploy.form.description: "説明"

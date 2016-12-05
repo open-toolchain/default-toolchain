@@ -1,0 +1,43 @@
+ {
+  "title": "$deploy.title",
+  "description": "$deploy.description",
+  "longDescription": "$deploy.longDescription",
+  "properties": {
+    "app-name": {
+      "description": "$deploy.appDescription"
+    }
+  },
+  "form": [
+    {
+      
+    },
+    {
+      "title": "$deploy.appName"
+    },
+    {
+      "items": [
+        {
+          
+        },
+        {
+          "title": "$region"
+        },
+        {
+          "title": "$organization"
+        },
+        {
+          "title": "$space"
+        },
+        {
+          
+        },
+        {
+          
+        },
+        {
+          
+        }
+      ]
+    }
+  ]
+}

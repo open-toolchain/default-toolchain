@@ -1,0 +1,6 @@
+---
+name: "持续交付工具链"
+description: "此工具链包含用于开发和部署您的应用程序的工具。创建工具链时，GitHub 存储库可能是空的，也可能包含您应用程序的源代码，具体取决于您的应用程序。\n\n单击**创建**以开始。"
+$deploy.title: "微型服务部署暂存区"
+$deploy.longDescription: "Delivery Pipeline 自动执行持续部署。"
+$deploy.form.description: "描述"

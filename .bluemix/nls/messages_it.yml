@@ -1,0 +1,6 @@
+---
+name: "Toolchain di distribuzione continua",
+description: "Questa toolchain include strumenti per lo sviluppo e la distribuzione delle proprie app. A seconda delle app, quando si crea la toolchain, il repository GitHub sarà vuoto o conterrà il codice sorgente dell'app.\n\nPer iniziare, fare clic su **Crea**.",
+$deploy.title: "Stage di distribuzione microservizi",
+$deploy.longDescription: "Delivery Pipeline automatizza la distribuzione continua.",
+$deploy.form.description: "Descrizione"

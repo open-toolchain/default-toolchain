@@ -1,0 +1,6 @@
+---
+name: "Continuous Delivery Toolchain"
+description: "Diese Toolchain umfasst Tools zur Entwicklung und Bereitstellung Ihrer App. Abhängig von Ihrer App ist das GitHub-Repository entweder leer oder es enthält Quellcode aus Ihrer App, wenn Sie die Toolchain erstellen.\n\nKlicken Sie auf **Erstellen**, um zu beginnen."
+$deploy.title: "Microservices-Bereitstellungsphase"
+$deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
+$deploy.form.description: "Beschreibung"

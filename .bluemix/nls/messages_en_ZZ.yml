@@ -1,0 +1,6 @@
+---
+name: "[G'Ｃｏｎｔｉｎｕｏｕs Delivery Toolchainฏูİı｜]"
+description: "[G'Ｔｈｉｓ ｔｏｏｌｃｈａｉｎ ｉｎｃｌｕｄｅｓ ｔｏｏｌｓ ｔｏ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ｙｏｕｒ ａｐｐ. Ｄｅｐｅｎｄｉｎｇ ｏn your app, when you create the toolchain, the GitHub repository will either be empty or will contain source code from your app.\n\nTo get started, click **Create**.ฏูİı｜]"
+$deploy.title: "[G'ＭｉｃｒｏＳｅｒｖices Deploy Stageฏูİı｜]"
+$deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
+$deploy.form.description: "[G'Ｄｅscriptionฏูİı｜]"

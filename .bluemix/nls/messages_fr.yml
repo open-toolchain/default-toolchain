@@ -1,0 +1,6 @@
+---
+name: "Chaîne d'outils de distribution continue",
+description: "Cette chaîne d'outils inclut des outils pour le développement et le déploiement de votre appli. En fonction de celle-ci, lorsque vous créez la chaîne d'outils, le référentiel GitHub sera vide ou contiendra le code source de votre appli.\n\nPour commencer, cliquez sur **Créer**.",
+$deploy.title: "Etape de déploiement de microservices",
+$deploy.longDescription: "Delivery Pipeline automatise le déploiement en continu.",
+$deploy.form.description: "Description"

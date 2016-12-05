@@ -1,0 +1,6 @@
+---
+name": "持續交付工具鏈"
+description: "此工具鏈包括用於開發及部署應用程式的工具。根據不同的應用程式，在您建立工具鏈時，GitHub 儲存庫將會呈現空白或包含應用程式的原始碼。\n\n若要開始，請按一下**建立**。"
+$deploy.title: "微服務部署暫置"
+$deploy.longDescription: "Delivery Pipeline 會自動執行連續部署。"
+$deploy.form.description: "說明"
