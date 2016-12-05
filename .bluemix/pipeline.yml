@@ -4,6 +4,7 @@ stages:
   inputs:
   - type: git
     branch: master
+    service: ${REPO}
   jobs:
   - name: Build
     type: builder
