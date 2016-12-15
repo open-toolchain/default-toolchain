@@ -47,7 +47,7 @@ deploy:
     $ref: deploy.json
   service-category: pipeline
   parameters:
-    dev-region: "ibm:yp:us-south"
+    dev-region: "{{region}}"
     dev-organization: "{{organization}}"
     dev-space: "dev"
     app-name: "{{repo.parameters.repo_name}}"
