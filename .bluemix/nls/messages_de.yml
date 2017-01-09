@@ -1,6 +1,10 @@
 ---
 name: "Continuous Delivery Toolchain"
-description: "Diese Toolchain umfasst Tools zur Entwicklung und Bereitstellung Ihrer App. Abhängig von Ihrer App ist das GitHub-Repository entweder leer oder es enthält Quellcode aus Ihrer App, wenn Sie die Toolchain erstellen.\n\nKlicken Sie auf **Erstellen**, um zu beginnen."
-$deploy.title: "Microservices-Bereitstellungsphase"
+description: "Diese Toolchain umfasst Tools zur Entwicklung und Bereitstellung Ihrer App. Abhängig von Ihrer App ist das GitHub-Repository entweder leer oder es enthält Quellcode aus Ihrer App, wenn Sie die Toolchain erstellen.\n\nDiese Toolchain verwendet Tools, die Teil des Continuous Delivery-Service sind. Wenn sich noch keine Instanz dieses Service in Ihrer Organisation befindet, wird sie automatisch hinzugefügt, wenn Sie auf **Erstellen** klicken, ohne dass für Sie Kosten anfallen. Weitere Informationen und Bedingungen finden Sie im [Bluemix-Katalog](/catalog/services/continuous-delivery/).\n\nKlicken Sie auf **Erstellen**, um zu beginnen."
+$deploy.title: "Beispielbereitstellungsphase"
 $deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
-$deploy.form.description: "Beschreibung"
+$deploy.appDescription: "Der Name Ihrer App 'Hello World'."
+$deploy.appName: "Name der App"
+$region: "Region"
+$organization: "Organisation"
+$space: "Bereich"

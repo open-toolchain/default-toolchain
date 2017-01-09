@@ -1,6 +1,10 @@
 ---
 name: "Cadeia de ferramentas do Continuous Delivery"
-description: "Esta cadeia de ferramentas inclui ferramentas para desenvolver e implementar seu app. Dependendo do seu app, ao criar a cadeia de ferramentas, o repositório GitHub estará vazio ou conterá o código de origem do seu app.\n\nPara iniciar, clique em **Criar**."
-$deploy.title: "Estágio de Implementação de MicroServices"
+description: "Esta cadeia de ferramentas inclui ferramentas para desenvolver e implementar seu app. Dependendo do seu app, ao criar a cadeia de ferramentas, o repositório GitHub estará vazio ou conterá o código-fonte do seu app.\n\nEssa cadeia de ferramentas usa ferramentas que são parte do serviço Continuous Delivery. Se uma instância desse serviço ainda não estiver em sua organização, ao clicar em **Criar**, ela será incluída automaticamente sem encargos para você. Para obter mais informações e termos, consulte o [catálogo do Bluemix](/catalog/services/continuous-delivery/).\n\nPara iniciar, clique em **Criar**."
+$deploy.title: "Estágio de Implementação de Amostra"
 $deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
-$deploy.form.description: "Descrição"
+$deploy.appDescription: "O nome de seu app Hello World."
+$deploy.appName: "Nome do app"
+$region: "Região"
+$organization: "Organização"
+$space: "Espaço"
