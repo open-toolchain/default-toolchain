@@ -5,7 +5,7 @@ locales:
 name: Continuous Delivery Toolchain
 description: "This toolchain includes tools to develop and deploy your app. Depending on your app, when you create the toolchain, the GitHub repository will either be empty or will contain source code from your app.\n\nThis toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Create**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](/catalog/services/continuous-delivery/).\n\nTo get started, click **Create**."
 version: 0.2
-image: data:image/svg+xml;base64,$file(toolchain.svg,base64)
+image: data:image/svg+xml;base64,$file(toolchain.svg?localize,base64)
 required: 
  - deploy
  - repo
