@@ -1,54 +1,67 @@
----
+version: '2'
 default_locale: en
-locales: 
+locales:
   $ref: locales.yml
-name: Continuous Delivery Toolchain
-description: "This toolchain includes tools to develop and deploy your app. Depending on your app, when you create the toolchain, the GitHub repository will either be empty or will contain source code from your app.\n\nThis toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Create**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](/catalog/services/continuous-delivery/).\n\nTo get started, click **Create**."
-version: 0.2
-image: data:image/svg+xml;base64,$file(toolchain.svg?localize,base64)
-required: 
- - deploy
- - repo
+template:
+  name: Continuous Delivery Toolchain
+  description: >-
+    This toolchain includes tools to develop and deploy your app. Depending on
+    your app, when you create the toolchain, the GitHub repository will either
+    be empty or will contain source code from your app.
 
-# Github repos
-repo:
-  service_id: githubpublic
-  parameters:
-    repo_name: "{{name}}"
-    repo_url: "{{repository}}"
-    type: clone
-    has_issues: true
 
-# Pipelines
-build:
-  service_id: pipeline
-  parameters:
-    name: "{{name}}"
-    ui-pipeline: true
-    configuration: 
-     content: $file(pipeline.yml)
-     env:
-      REPO: "repo"
-      CF_APP: "{{deploy.parameters.app-name}}"
-      CF_SPACE: "{{deploy.parameters.dev-space}}"
-      CF_ORGANIZATION: "{{deploy.parameters.dev-organization}}"
-      CF_REGION_ID: "{{deploy.parameters.dev-region}}"
-     execute: true
-    services: ["repo"]
-  hidden: ["form"]
-    
+    This toolchain uses tools that are part of the Continuous Delivery service.
+    If an instance of that service isn't already in your organization, when you
+    click **Create**, it is automatically added at no cost to you. For more
+    information and terms, see the [Bluemix
+    catalog](/catalog/services/continuous-delivery/).
 
-#Web IDE
-webide:
-  service_id: orion
-  
-#Deployment
-deploy:
-  schema: 
-    $ref: deploy.json
-  service-category: pipeline
-  parameters:
-    dev-region: "{{region}}"
-    dev-organization: "{{organization}}"
-    dev-space: "dev"
-    app-name: "{{repo.parameters.repo_name}}"
+
+    To get started, click **Create**.
+  header: '![](toolchain.svg?localize "header image")'
+  required:
+    - build
+    - repo
+  info:
+    git url: >-
+      [https://github.com/open-toolchain/default-toolchain](https://github.com/open-toolchain/default-toolchain)
+    git branch: '[master](https://github.com/open-toolchain/default-toolchain/tree/master)'
+toolchain:
+  name: 'default-toolchain-{{timestamp}}'
+services:
+  repo:
+    service_id: githubpublic
+    parameters:
+      repo_name: '{{toolchain.name}}'
+      repo_url: '{{repository}}'
+      type: clone
+      has_issues: true
+  build:
+    service_id: pipeline
+    parameters:
+      services:
+        - repo
+      name: '{{toolchain.name}}'
+      ui-pipeline: true
+      configuration:
+        content:
+          $ref: pipeline.yml
+          $refType: text
+        env:
+          REPO: repo
+          CF_APP: '{{form.pipeline.parameters.app-name}}'
+          CF_SPACE: '{{form.pipeline.parameters.dev-space}}'
+          CF_ORGANIZATION: '{{form.pipeline.parameters.dev-organization}}'
+          CF_REGION_ID: '{{form.pipeline.parameters.dev-region}}'
+        execute: true
+  webide:
+    service_id: orion
+form:
+  pipeline:
+    parameters:
+      dev-region: '{{region}}'
+      dev-organization: '{{organization}}'
+      dev-space: dev
+      app-name: '{{services.repo.parameters.repo_name}}'
+    schema:
+      $ref: deploy.json
