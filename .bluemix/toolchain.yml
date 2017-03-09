@@ -18,7 +18,7 @@ template:
 
 
     To get started, click **Create**.
-  header: '![](toolchain.svg?localize "header image")'
+  header: '![](toolchain.svg?localize)'
   required:
     - build
     - repo
