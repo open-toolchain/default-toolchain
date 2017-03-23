@@ -1,23 +1,11 @@
 version: '2'
-default_locale: en
-locales:
-  $ref: locales.yml
+messages:
+  $i18n: locales.yml
 template:
-  name: Continuous Delivery Toolchain
-  description: >-
-    This toolchain includes tools to develop and deploy your app. Depending on
-    your app, when you create the toolchain, the GitHub repository will either
-    be empty or will contain source code from your app.
-
-
-    This toolchain uses tools that are part of the Continuous Delivery service.
-    If an instance of that service isn't already in your organization, when you
-    click **Create**, it is automatically added at no cost to you. For more
-    information and terms, see the [Bluemix
-    catalog](/catalog/services/continuous-delivery/).
-
-
-    To get started, click **Create**.
+  name:
+    $ref: "#/messages/template.name"
+  description:
+    $ref: "#/messages/template.description"
   header: '![](toolchain.svg?localize)'
   required:
     - build
