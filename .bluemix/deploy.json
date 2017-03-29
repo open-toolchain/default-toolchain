@@ -1,10 +1,14 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "localized-struct": {
-        "$ref": "deploy-localized-struct.json"
+    "messages": {
+       "$i18n": "locales.yml"
     },
-    "title": "Sample Deploy Stage",
-    "longDescription": "The Delivery Pipeline automates continuous deployment.",
+     "title": {
+      "$ref": "#/messages/deploy.title"
+    },
+     "longDescription": {
+      "$ref": "#/messages/deploy.longDescription"
+    },
     "type": "object",
     "properties": {
         "dev-region": {
@@ -20,7 +24,9 @@
             "type": "string"
         },
         "app-name": {
-            "description": "The name of your Hello World app.",
+            "description": {
+              "$ref": "#/messages/deploy.appDescription"
+            },
             "type": "string"
         }
     },
@@ -38,7 +44,9 @@
         {
             "type": "text",
             "readonly": false,
-            "title": "App name",
+            "title": {
+                "$ref": "#/messages/deploy.appName"
+            },
             "key": "app-name"
         },
         {
@@ -52,20 +60,25 @@
             "items": [
                 {
                     "type": "label",
-                    "title": "Region"
+                    "title": {
+                        "$ref": "#/messages/region"
+                    }
                 },
                 {
                     "type": "label",
-                    "title": "Region"
+                     "title": {
+                        "$ref": "#/messages/organization"
+                    }
                 },
                 {
                     "type": "label",
-                    "title": "Organization"
+                    "title": {
+                        "$ref": "#/messages/space"
+                    }
                 },
                 {
                     "type": "select",
-                    "key": "dev-region",
-                    "title": "Space"
+                    "key": "dev-region"
                 },
                 {
                     "type": "select",
@@ -79,5 +92,4 @@
             ]
         }
     ],
-    "description": "$form.pipeline.description"
 }

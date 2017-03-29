@@ -313,16 +313,16 @@
 		<line id="svg_232" class="st0" x1="133.8" y1="101.9" x2="133.7" y2="101.9"/>
 		<line id="svg_233" class="st0" x1="135.7" y1="101.6" x2="135.7" y2="101.6"/>
 	</g>
-	<text id="issueTracker" transform="matrix(0.9271 0 0 1 1.9888 130.2944)" class="st26 st27">ISSUE TRACKER</text>
-	<text id="gitHub1" transform="matrix(0.9271 0 0 1 23.0991 143.4946)" class="st26 st27">GitHub</text>
-	<text id="think" transform="matrix(1 0 0 1 -0.3569 17.7954)" class="st26 st28">THINK</text>
-	<text id="code" transform="matrix(1 0 0 1 89.3677 17.7954)" class="st26 st28">CODE</text>
-	<text id="deliver" transform="matrix(1 0 0 1 179.1318 17.7954)" class="st26 st28">DELIVER</text>
-	<text id="run" transform="matrix(1 0 0 1 267.8564 17.7954)" class="st26 st28">RUN</text>
-	<text id="repository" transform="matrix(0.9271 0 0 1 100.6055 130.2944)" class="st26 st27">REPOSITORY</text>
-	<text id="gitHub2" transform="matrix(0.9271 0 0 1 115.9028 143.4946)" class="st26 st27">GitHub</text>
-	<text id="pipeline" transform="matrix(0.9271 0 0 1 198.5083 130.2944)" class="st26 st27">PIPELINE</text>
-	<text id="bluemix" transform="matrix(0.9271 0 0 1 290.2925 130.2944)" class="st26 st27">BLUEMIX</text>
-	<text id="webIde" transform="matrix(0.9271 0 0 1 108.7642 242.2744)" class="st26 st27">WEB IDE</text>
+	<text id="headerSVG.issueTracker" transform="matrix(0.9271 0 0 1 1.9888 130.2944)" class="st26 st27">ISSUE TRACKER</text>
+	<text id="headerSVG.gitHub1" transform="matrix(0.9271 0 0 1 23.0991 143.4946)" class="st26 st27">GitHub</text>
+	<text id="headerSVG.think" transform="matrix(1 0 0 1 -0.3569 17.7954)" class="st26 st28">THINK</text>
+	<text id="headerSVG.code" transform="matrix(1 0 0 1 89.3677 17.7954)" class="st26 st28">CODE</text>
+	<text id="headerSVG.deliver" transform="matrix(1 0 0 1 179.1318 17.7954)" class="st26 st28">DELIVER</text>
+	<text id="headerSVG.run" transform="matrix(1 0 0 1 267.8564 17.7954)" class="st26 st28">RUN</text>
+	<text id="headerSVG.repository" transform="matrix(0.9271 0 0 1 100.6055 130.2944)" class="st26 st27">REPOSITORY</text>
+	<text id="headerSVG.gitHub2" transform="matrix(0.9271 0 0 1 115.9028 143.4946)" class="st26 st27">GitHub</text>
+	<text id="headerSVG.pipeline" transform="matrix(0.9271 0 0 1 198.5083 130.2944)" class="st26 st27">PIPELINE</text>
+	<text id="headerSVG.bluemix" transform="matrix(0.9271 0 0 1 290.2925 130.2944)" class="st26 st27">BLUEMIX</text>
+	<text id="headerSVG.webIde" transform="matrix(0.9271 0 0 1 108.7642 242.2744)" class="st26 st27">WEB IDE</text>
 </g>
 </svg>
