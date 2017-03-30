@@ -1,13 +1,13 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "messages": {
-       "$i18n": "locales.yml"
+        "$i18n": "locales.yml"
     },
-     "title": {
-      "$ref": "#/messages/deploy.title"
+    "title": {
+        "$ref": "#/messages/deploy.title"
     },
-     "longDescription": {
-      "$ref": "#/messages/deploy.longDescription"
+    "longDescription": {
+        "$ref": "#/messages/deploy.longDescription"
     },
     "type": "object",
     "properties": {
@@ -25,7 +25,7 @@
         },
         "app-name": {
             "description": {
-              "$ref": "#/messages/deploy.appDescription"
+                "$ref": "#/messages/deploy.appDescription"
             },
             "type": "string"
         }
@@ -91,5 +91,5 @@
                 }
             ]
         }
-    ],
+    ]
 }
