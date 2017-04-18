@@ -27,6 +27,10 @@ template.description: |
   Still need to create a project at JazzHub? You can still
   [create a project](https://hub.jazz.net/deploy?repository={{repository}}),
   but if you do, you must upgrade that project to a toolchain soon.
+toolchain.getting_started: >-
+  This is the toolchain for your application. You can watch the pipeline deploy it
+  by clicking on the **Delivery Pipeline** tile below. Once the application is deployed,
+  you can click on the **View app** button to see it running.
 deploy.title: "Sample Deploy Stage"
 deploy.longDescription: "The Delivery Pipeline automates continuous deployment."
 deploy.appDescription: "The name of your Hello World app."
