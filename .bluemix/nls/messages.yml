@@ -1,5 +1,5 @@
 ---
-template.name: "Deploy Your App to Bluemix"
+template.name: "Deploy the {{baseName}} App to Bluemix"
 template.description: |
   ## To see the application running on Bluemix, push the **Create** button.
 
