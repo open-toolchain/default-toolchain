@@ -10,8 +10,14 @@ template:
   required:
     - build
     - repo
+  info:
+    git url: >-
+      [{{repository}}]({{repository}})
 toolchain:
-  name: 'default-toolchain-{{timestamp}}'
+  name: '{{baseName}}-{{timestamp}}'
+  template:
+    getting_started:
+      $ref: '#/messages/toolchain.getting_started'
 services:
   repo:
     service_id: githubpublic
