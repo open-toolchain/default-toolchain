@@ -20,7 +20,7 @@ toolchain:
       $ref: '#/messages/toolchain.getting_started'
 services:
   repo:
-    service_id: githubpublic
+    service_id: hostedgit
     parameters:
       repo_name: '{{toolchain.name}}'
       repo_url: '{{repository}}'
