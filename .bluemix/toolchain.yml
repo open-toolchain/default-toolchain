@@ -15,9 +15,6 @@ template:
       [{{repository}}]({{repository}})
 toolchain:
   name: '{{baseName}}-{{timestamp}}'
-  template:
-    getting_started:
-      $ref: '#/messages/toolchain.getting_started'
 services:
   repo:
     service_id: hostedgit
