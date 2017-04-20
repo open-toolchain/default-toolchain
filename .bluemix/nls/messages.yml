@@ -1,28 +1,14 @@
 ---
-template.name: "Deploy the {{baseName}} App to Bluemix"
+template.name: "Deploy to Bluemix toolchain"
 template.description: |
-  ## To see the application running on Bluemix, push the **Create** button.
+  This toolchain contains tools to develop and deploy your app. After you click **Create**,
+  your toolchain is shown, and you can click  **Delivery Pipeline** to watch your app as
+  it is deployed. When the pipeline is finished, click **View app** to see the running app.
 
-  This creates a toolchain that contains the tools to deploy the app and takes
-  you to a page that describes them. You can watch the app being deployed by
-  clicking on the pipeline tile on that page. When the pipeline completes, you
-  can click on the **View app** button to see it running.
-
-  ### Configuration Options
-  Before you push the **Create** button, you can change the name of the toolchain
-  that will be created by editing the Toolchain Name field on this page. By default
-  this also updates the name of the repository that is created, and the name of
-  the application on Bluemix.
-
-  You can also click on the Git tile to configure the name of the repository, or
-  the Pipeline tile to change the name of the app and to set where it will be
-  deployed in Bluemix (region/org/space).
-
-  *Note: This toolchain uses tools that are part of the Continuous Delivery service.
+  This toolchain uses tools that are part of the Continuous Delivery service.
   If an instance of that service isn't already in your organization, when you click
   **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the
-  [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).*
+  terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).
 
   Still need to create a project at JazzHub? You can still
   [create a project](https://hub.jazz.net/deploy?repository={{repository}}),
