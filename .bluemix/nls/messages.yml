@@ -1,5 +1,5 @@
 ---
-template.name: "Deploy to Bluemix toolchain"
+template.name: "Deploy to Bluemix: {{baseName}} app"
 template.description: |
   This toolchain contains tools to develop and deploy your app. After you click **Create**,
   your toolchain is shown, and you can click  **Delivery Pipeline** to watch your app as
