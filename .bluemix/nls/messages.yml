@@ -1,5 +1,5 @@
 ---
-template.name: "Deploy the {{baseName}} App to Bluemix"
+template.name: "Deploy to Bluemix toolchain"
 template.description: |
   A Bluemix account is required to deploy this application. To get started,
   click **Log In** or **Sign Up** at the top of this page.
