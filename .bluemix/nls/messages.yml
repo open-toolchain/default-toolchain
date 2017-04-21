@@ -5,7 +5,6 @@ template.description: |
   includes a clone of your Git repo, a pipeline for building and deploying code changes,
   a Web IDE for editing code on the cloud, and an issue tracker. After you create the
   toolchain, you can configure it and add more tools to it.
-
   [Learn more](https://bluemix.net/devops/getting-started).
 deploy.title: "Sample Deploy Stage"
 deploy.longDescription: "The Delivery Pipeline automates continuous deployment."
