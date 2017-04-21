@@ -14,9 +14,9 @@ template.description: |
   [create a project](https://hub.jazz.net/deploy?repository={{repository}}),
   but if you do, you must upgrade that project to a toolchain soon.
 toolchain.getting_started: >-
-  This is the toolchain for your application. You can watch the pipeline deploy it
-  by clicking on the **Delivery Pipeline** tile below. Once the application is deployed,
-  you can click on the **View app** button to see it running.
+  **Your toolchain is ready! Quick start:** This toolchain was created for your app.
+  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
+  deployed, you can see it running by clicking **View app**.
 deploy.title: "Sample Deploy Stage"
 deploy.longDescription: "The Delivery Pipeline automates continuous deployment."
 deploy.appDescription: "The name of your Hello World app."
