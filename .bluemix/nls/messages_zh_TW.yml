@@ -1,6 +1,7 @@
 ---
-template.name: "Continuous Delivery 工具鏈"
-template.description: "此工具鏈包括用來開發及部署應用程式的工具。視您的應用程式而定，在建立工具鏈時，GitHub 儲存庫將會呈現空白或會包含應用程式的原始碼。\n\n此工具鏈會使用屬於 Continuous Delivery 服務的工具。當您按一下**建立**時如果組織中尚未具有該服務的實例，則將自動新增實例而不收取費用。如需相關資訊及術語，請參閱 [Bluemix catalog](/catalog/services/continuous-delivery/)。\n\n若要開始，請按一下**建立**。"
+template.name: "部署至 Bluemix：{{baseName}} 應用程式"
+template.description: 這個工具鏈包含用於開發及部署應用程式的工具。當您按一下**建立**之後會顯示工具鏈，\n而在應用程式部署之後，您則可以按一下 **Delivery Pipeline** 來查看這個應用程式。\n完成管線時，請按一下**檢視應用程式**來查看執行中的應用程式。\n此工具鏈使用 Continuous Delivery 服務的部分工具。\n當您按一下**建立**時如果組織中尚未具有該服務的實例，\n則將自動新增實例而不收取費用。如需相關資訊及術語，\n請參閱 [Bluemix 型錄](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。\n仍然需要在 JazzHub 上建立專案嗎？您仍然可以\n[建立專案](https://hub.jazz.net/deploy?repository={{repository}})，\n但是如果這樣做，您必須在不久之後將該專案升級至工具鏈。
+toolchain.getting_started: - 這是應用程式的工具鏈。您可以透過按下列的 **Delivery Pipeline** 磚，來監看管線部署。應用程式一旦部署完成，則可以按一下**檢視應用程式**按鈕來查看它執行中的情況。
 deploy.title: "範例服務部署暫置"
 deploy.longDescription: "Delivery Pipeline 會自動執行連續部署。"
 deploy.appDescription: "Hello World 應用程式的名稱。"
