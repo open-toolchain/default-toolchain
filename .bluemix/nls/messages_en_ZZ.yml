@@ -1,6 +1,20 @@
 ---
-template.name: "[G'Ｃｏｎｔｉｎｕｏｕs Delivery Toolchainฏูİı｜]"
-template.description: "[G'Ｔｈｉｓ ｔｏｏｌｃｈａｉｎ ｉｎｃｌｕｄｅｓ ｔｏｏｌｓ ｔｏ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ｙｏｕｒ ａｐｐ. Ｄｅｐｅｎｄｉｎｇ ｏｎ ｙｏｕｒ ａｐｐ, ｗｈｅｎ ｙｏｕ ｃｒｅａｔｅ ｔｈｅ ｔｏｏｌｃｈａｉｎ, ｔｈｅ ＧｉｔＨｕｂ ｒｅｐｏｓｉｔｏｒｙ ｗｉｌｌ ｅｉｔｈｅｒ ｂｅ ｅｍｐｔｙ ｏｒ ｗｉｌｌ ｃｏｎｔａｉｎ ｓｏｕｒｃｅ ｃｏｄｅ ｆｒｏm your app.\n\nThis toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Create**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](/catalog/services/continuous-delivery/).\n\nTo get started, click **Create**.ฏูİı｜]"
+template.name: "[G'Ｄｅｐｌｏｙ ｔｏ Ｂluemix: {[{baseName}]} appฏูİı｜]"
+template.description: [G'|
+  Ｔｈｉｓ ｔｏｏｌｃｈａｉｎ ｃｏｎｔａｉｎｓ ｔｏｏｌｓ ｔｏ ｄｅｖｅｌｏｐ ａｎｄ ｄｅｐｌｏｙ ｙｏｕｒ ａｐｐ. Ａｆｔｅｒ ｙｏｕ ｃｌｉｃｋ **Ｃｒｅａｔｅ**,
+  ｙｏｕｒ toolchain is shown, and you can click  **Delivery Pipeline** to watch your app as
+  it is deployed. When the pipeline is finished, click **View app** to see the running app.ฏูİı｜]
+  This toolchain uses tools that are part of the Continuous Delivery service.
+  If an instance of that service isn't already in your organization, when you click
+  **Create**, it is automatically added at no cost to you. For more information and
+  terms, see the [Bluemix catalog](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅmix.net/catalog/services/continuous-delivery/).ฏูİı｜]
+  Still need to create a project at JazzHub? You can still
+  [create a project](https:[G'//ｈｕｂ.ｊａｚｚ.ｎｅｔ/ｄeploy?repository={[{repository}]}),ฏูİı｜]
+  but if you do, you must upgrade that project to a toolchain soon.
+toolchain.getting_started: [G'>-
+  Ｔｈｉｓ ｉｓ ｔｈｅ ｔｏｏｌｃｈａｉｎ ｆｏｒ ｙｏｕｒ ａｐｐｌｉｃａｔｉｏｎ. Ｙｏｕ ｃａｎ ｗａｔｃｈ ｔｈｅ ｐｉｐｅｌｉｎｅ ｄｅｐｌoy it
+  by clicking on the **Delivery Pipeline** tile below. Once the application is deployed,
+  you can click on the **View app** button to see it running.ฏูİı｜]
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
 deploy.appDescription: "[G'Ｔｈｅ ｎａｍｅ ｏｆ ｙour Hello World app.ฏูİı｜]"
