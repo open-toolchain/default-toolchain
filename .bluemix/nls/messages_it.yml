@@ -1,6 +1,6 @@
 ---
 template.name: "Distribuisci in Bluemix: app {{baseName}} "
-template.description: Per distribuire questa applicazione, è richiesto un account Bluemix. Per iniziare, \nfare clic su **Accedi** o **Registrati** nella parte superiore di questa pagina. 
+template.description: "Per distribuire questa applicazione, è richiesto un account Bluemix. Per iniziare, \nfare clic su **Accedi** o **Registrati** nella parte superiore di questa pagina." 
 deploy.title: "Stage di distribuzione di esempio"
 deploy.longDescription: "Delivery Pipeline automatizza la distribuzione continua."
 deploy.appDescription: "Il nome dell'app Hello World."
