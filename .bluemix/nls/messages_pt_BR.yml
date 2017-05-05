@@ -1,6 +1,6 @@
 ---
 template.name: "Implementar no Bluemix: app {{baseName}}"
-template.description: É necessária uma conta do Bluemix para implementar esse aplicativo. Para iniciar,\nclique em **Efetuar login** ou **Inscrever-se** na parte superior desta página.
+template.description: "É necessária uma conta do Bluemix para implementar esse aplicativo. Para iniciar,\nclique em **Efetuar login** ou **Inscrever-se** na parte superior desta página."
 deploy.title: "Estágio de Implementação de Amostra"
 deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
 deploy.appDescription: "O nome de seu app Hello World."
