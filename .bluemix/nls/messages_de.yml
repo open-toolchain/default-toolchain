@@ -1,6 +1,6 @@
 ---
 template.name: "In Bluemix bereitstellen: App {{baseName}}"
-template.description: Um diese Anwendung bereitzustellen, ist ein Bluemix-Konto erforderlich. Um zu beginnen,\nklicken Sie auf **Anmelden** oder am Anfang dieser Seite auf **Registrierung**.
+template.description: "Um diese Anwendung bereitzustellen, ist ein Bluemix-Konto erforderlich. Um zu beginnen,\nklicken Sie auf **Anmelden** oder am Anfang dieser Seite auf **Registrierung**."
 deploy.title: "Beispielbereitstellungsphase"
 deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
 deploy.appDescription: "Der Name Ihrer App 'Hello World'."
