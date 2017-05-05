@@ -1,6 +1,6 @@
 ---
 template.name: "Bluemix에 배치: {{baseName}} 앱"
-template.description: 이 애플리케이션을 배치하려면 Bluemix 계정이 필요합니다. 시작하려면\n이 페이지의 맨 위에서 **로그인** 또는 **등록**을 클릭하십시오.
+template.description: "이 애플리케이션을 배치하려면 Bluemix 계정이 필요합니다. 시작하려면\n이 페이지의 맨 위에서 **로그인** 또는 **등록**을 클릭하십시오."
 deploy.title: "샘플 배치 단계"
 deploy.longDescription: "Delivery Pipeline은 지속적 배치를 자동화합니다."
 deploy.appDescription: "Hello World 앱의 이름입니다."
