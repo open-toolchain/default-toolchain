@@ -1,6 +1,6 @@
 ---
 template.name: "部署至 Bluemix：{{baseName}} 应用程序"
-template.description: 部署此应用程序需要 Bluemix 帐户。要开始使用，\n请单击此页面顶部的 **登录** 或 **Sign Up**。
+template.description: "部署此应用程序需要 Bluemix 帐户。要开始使用，\n请单击此页面顶部的 **登录** 或 **Sign Up**。"
 deploy.title: "样本部署暂存区"
 deploy.longDescription: "Delivery Pipeline 自动执行持续部署。"
 deploy.appDescription: "Hello World 应用程序的名称。"
