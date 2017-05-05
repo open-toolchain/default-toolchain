@@ -1,8 +1,6 @@
 ---
 template.name: "[G'Ｄｅｐｌｏｙ ｔｏ Ｂluemix: {[{baseName}]} appฏูİı｜]"
-template.description: [G'|
-  Ａ Ｂｌｕｅｍｉｘ ａｃｃｏｕｎｔ ｉｓ ｒｅｑｕｉｒｅｄ ｔｏ ｄｅｐｌｏy this application. To get started,
-  click **Log In** or **Sign Up** at the top of this page.ฏูİı｜]
+template.description: "[G'Ａ Ｂｌｕｅｍｉｘ ａｃｃｏｕｎｔ ｉｓ ｒｅｑｕｉｒｅｄ ｔｏ ｄｅｐｌｏy this application. To get started, click **Log In** or **Sign Up** at the top of this page.ฏู"İı｜]
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
 deploy.appDescription: "[G'Ｔｈｅ ｎａｍｅ ｏｆ ｙour Hello World app.ฏูİı｜]"
