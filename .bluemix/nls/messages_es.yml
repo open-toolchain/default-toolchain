@@ -1,6 +1,6 @@
 ---
 template.name: "Desplegar en Bluemix: app {{baseName}}"
-template.description: Se necesita una cuenta de Bluemix para desplegar esta aplicación. Para empezar,\npulse **Iniciar sesión* o **Registrarse** en la parte superior de esta página. 
+template.description: "Se necesita una cuenta de Bluemix para desplegar esta aplicación. Para empezar,\npulse **Iniciar sesión* o **Registrarse** en la parte superior de esta página." 
 deploy.title: "Sample Deploy Stage"
 deploy.longDescription: "Delivery Pipeline automatiza el despliegue continuo."
 deploy.appDescription: "El nombre de la aplicación Hello World."
