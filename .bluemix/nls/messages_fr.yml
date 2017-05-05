@@ -1,6 +1,6 @@
 ---
 template.name: "Déploiement dans Bluemix : application {{baseName}}"
-template.description: Un compte Bluemix est requis pour déployer cette application. Pour commencer,\ncliquez sur **Connexion** ou **Enregistrement** en haut de cette page.
+template.description: "Un compte Bluemix est requis pour déployer cette application. Pour commencer,\ncliquez sur **Connexion** ou **Enregistrement** en haut de cette page."
 deploy.title: "Etape de déploiement exemple"
 deploy.longDescription: "Delivery Pipeline automatise le déploiement en continu."
 deploy.appDescription: "Nom de votre appli Hello World."
