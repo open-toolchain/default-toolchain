@@ -1,7 +1,7 @@
 ---
 template.name: "部署至 Bluemix：{{baseName}} 应用程序"
-template.description: 此工具链包含用于开发和部署您的应用程序的工具。单击 **创建** 后，\n会显示工具链，您可以单击 **Delivery Pipeline** 以在部署应用程序后\n观看应用程序。完成管道时，单击 **查看应用程序** 以查看正在运行的应用程序。\n此工具链使用 Continuous Delivery 服务中的工具。\n如果您组织中没有该服务的实例，当您单击\n**创建** 时，会免费为您自动添加该服务实例。有关更多信息和\n术语，请参阅 [Bluemix 目录](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。\n仍然需要在 JazzHub 上创建项目？您仍然可以\n[创建项目](https://hub.jazz.net/deploy?repository={{repository}})，\n但如果这样做，很快就必须将该项目升级到工具链。
-toolchain.getting_started: - 这是用于应用程序的工具链。您可以通过单击下面的 **Delivery Pipeline** 磁贴，来观看管道部署应用程序。部署完应用程序后，您可以单击 **查看应用程序** 按钮以查看其运行。
+template.description: "此工具链包含用于开发和部署您的应用程序的工具。单击 **创建** 后，\n会显示工具链，您可以单击 **Delivery Pipeline** 以在部署应用程序后\n观看应用程序。完成管道时，单击 **查看应用程序** 以查看正在运行的应用程序。\n此工具链使用 Continuous Delivery 服务中的工具。\n如果您组织中没有该服务的实例，当您单击\n**创建** 时，会免费为您自动添加该服务实例。有关更多信息和\n术语，请参阅 [Bluemix 目录](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。\n仍然需要在 JazzHub 上创建项目？您仍然可以\n[创建项目](https://hub.jazz.net/deploy?repository={{repository}})，\n但如果这样做，很快就必须将该项目升级到工具链。"
+toolchain.getting_started: "这是用于应用程序的工具链。您可以通过单击下面的 **Delivery Pipeline** 磁贴，来观看管道部署应用程序。部署完应用程序后，您可以单击 **查看应用程序** 按钮以查看其运行。"
 deploy.title: "样本部署暂存区"
 deploy.longDescription: "Delivery Pipeline 自动执行持续部署。"
 deploy.appDescription: "Hello World 应用程序的名称。"
