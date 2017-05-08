@@ -1,5 +1,5 @@
 ---
-template.name: "Deploy to Bluemix: {{baseName}} app"
+template.name: Deploy to Bluemix: {{baseName}} app"
 template.description: |
   Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
   includes a clone of your Git repo, a pipeline for building and deploying code changes,
