@@ -1,6 +1,6 @@
 ---
 template.name: "Bluemix에 배치: {{baseName}} 앱"
-template.description: 사용자의 앱은 이 도구 체인을 사용하여 Continuous Delivery에서 사용됩니다. 도구 체인에는 \nGit 저장소의 복제본, 코드 변경사항을 빌드하고 배치하기 위한 파이프라인, \n클라우드에서 코드를 편집하기 위한 웹 IDE 및 문제 트래커가 포함되어 있습니다. 도구 체인을 작성하면\n이를 구성하고 여기에 도구를 더 추가할 수 있습니다. \n[자세히 보기](https://bluemix.net/devops/getting-started).
+template.description: "사용자의 앱은 이 도구 체인을 사용하여 Continuous Delivery에서 사용됩니다. 도구 체인에는 \nGit 저장소의 복제본, 코드 변경사항을 빌드하고 배치하기 위한 파이프라인, \n클라우드에서 코드를 편집하기 위한 웹 IDE 및 문제 트래커가 포함되어 있습니다. 도구 체인을 작성하면\n이를 구성하고 여기에 도구를 더 추가할 수 있습니다. \n[자세히 보기](https://bluemix.net/devops/getting-started)."
 deploy.title: "샘플 배치 단계"
 deploy.longDescription: "Delivery Pipeline은 지속적 배치를 자동화합니다."
 deploy.appDescription: "Hello World 앱의 이름입니다."
