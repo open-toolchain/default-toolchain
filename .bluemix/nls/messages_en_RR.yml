@@ -1,35 +1,37 @@
 ---
-template.name: "Deploy to Bluemix: {[{baseName}]} app~otc-ui508"
+template.name: "Deploy to Bluemix: {[{baseName}]} app~otc-ui549"
 template.description: |
-  This toolchain contains tools to develop and deploy your app. After you click **Create**,
-  your toolchain is shown, and you can click  **Delivery Pipeline** to watch your app as
-  it is deployed. When the pipeline is finished, click **View app** to see the running app.~otc-ui509
+  Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
+  includes a clone of your Git repo, a pipeline for building and deploying code changes,
+  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
+  toolchain, you can configure it and add more tools to it.~otc-ui550
+  [Learn more](https://bluemix.net/devops/getting-started).~otc-ui551
   This toolchain uses tools that are part of the Continuous Delivery service.
   If an instance of that service isn't already in your organization, when you click
   **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).~otc-ui510
+  terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).~otc-ui552
   Still need to create a project at JazzHub? You can still
-  [create a project](https://hub.jazz.net/deploy?repository={[{repository}]}),~otc-ui511
+  [create a project](https://hub.jazz.net/deploy?legacy&repository={[{repository}]}),~otc-ui553
   but if you do, you must upgrade that project to a toolchain soon.
-toolchain.getting_started: >-
-  This is the toolchain for your application. You can watch the pipeline deploy it
-  by clicking on the **Delivery Pipeline** tile below. Once the application is deployed,
-  you can click on the **View app** button to see it running.~otc-ui512
-deploy.title: "Sample Deploy Stage~otc-ui513"
-deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui514"
-deploy.appDescription: "The name of your Hello World app.~otc-ui515"
-deploy.appName: "App name~otc-ui516"
-region: "Region~otc-ui517"
-organization: "Organization~otc-ui518"
-space: "Space~otc-ui519"
-headerSVG.issueTracker: "ISSUE TRACKER~otc-ui520"
-headerSVG.gitHub1: "GitHub~otc-ui521"
-headerSVG.think: "THINK~otc-ui522"
-headerSVG.code: "CODE~otc-ui523"
-headerSVG.deliver: "DELIVER~otc-ui524"
-headerSVG.run: "RUN~otc-ui525"
-headerSVG.repository: "REPOSITORY~otc-ui526"
-headerSVG.gitHub2: "GitHub~otc-ui527"
-headerSVG.pipeline: "PIPELINE~otc-ui528"
-headerSVG.bluemix: "BLUEMIX~otc-ui529"
-headerSVG.webIde: "WEB IDE~otc-ui530"
+toolchain.getting_started: >-~otc-ui554
+  **Your toolchain is ready! Quick start:** This toolchain was created for your app.~otc-ui555
+  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
+  deployed, you can see it running by clicking **View app**.
+deploy.title: "Sample Deploy Stage~otc-ui556"
+deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui557"
+deploy.appDescription: "The name of your Hello World app.~otc-ui558"
+deploy.appName: "App name~otc-ui559"
+region: "Region~otc-ui560"
+organization: "Organization~otc-ui561"
+space: "Space~otc-ui562"
+headerSVG.issueTracker: "ISSUE TRACKER~otc-ui563"
+headerSVG.gitHub1: "GitHub~otc-ui564"
+headerSVG.think: "THINK~otc-ui565"
+headerSVG.code: "CODE~otc-ui566"
+headerSVG.deliver: "DELIVER~otc-ui567"
+headerSVG.run: "RUN~otc-ui568"
+headerSVG.repository: "REPOSITORY~otc-ui569"
+headerSVG.gitHub2: "GitHub~otc-ui570"
+headerSVG.pipeline: "PIPELINE~otc-ui571"
+headerSVG.bluemix: "BLUEMIX~otc-ui572"
+headerSVG.webIde: "WEB IDE~otc-ui573"
