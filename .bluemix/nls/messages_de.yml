@@ -1,6 +1,6 @@
 ---
 template.name: "In Bluemix bereitstellen: App {{baseName}}"
-template.description: Die App wird mit dieser Toolchain für Continuous Delivery aktiviert. Die Toolchain\nenthält einen Klon Ihres Git-Repositorys, eine Pipeline für den Build und die Bereitstellung von Codeänderungen,\neine Web-IDE für die Bearbeitung von Code in der Cloud und einen Problemtracker. Nach der Erstellung der\nToolchain können Sie sie konfigurieren und weitere Tools hinzufügen.\n[Weitere Informationen](https://bluemix.net/devops/getting-started).
+template.description: "Die App wird mit dieser Toolchain für Continuous Delivery aktiviert. Die Toolchain\nenthält einen Klon Ihres Git-Repositorys, eine Pipeline für den Build und die Bereitstellung von Codeänderungen,\neine Web-IDE für die Bearbeitung von Code in der Cloud und einen Problemtracker. Nach der Erstellung der\nToolchain können Sie sie konfigurieren und weitere Tools hinzufügen.\n[Weitere Informationen](https://bluemix.net/devops/getting-started)."
 deploy.title: "Beispielbereitstellungsphase"
 deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
 deploy.appDescription: "Der Name Ihrer App 'Hello World'."
