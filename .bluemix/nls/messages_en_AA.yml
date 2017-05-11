@@ -1,7 +1,7 @@
 ---
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
-template.description: 2:|
-  Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
+template.description: |
+  2:Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
   includes a clone of your Git repo, a pipeline for building and deploying code changes,
   a Web IDE for editing code on the cloud, and an issue tracker. After you create the
   toolchain, you can configure it and add more tools to it.
