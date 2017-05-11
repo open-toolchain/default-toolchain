@@ -1,6 +1,6 @@
 ---
 template.name: "Bluemix にデプロイ: {{baseName}} アプリ"
-template.description: "このアプリケーションをデプロイするには、Bluemix アカウントが必要です。まず始めに、\nこのページの最上部にある**「ログイン」**または**「登録」**をクリックしてください。"
+template.description: このツールチェーンを使用すると、ご使用のアプリは Continuous Delivery に対応します。ツールチェーンには\nGit リポジトリーの複製、コード変更をビルドおよびデプロイするためのパイプライン、クラウド上で\nコードを編集するための Web IDE、および問題トラッカーが含まれています。ツールチェーンを作成した後、\nそのツールチェーンを構成し、ツールをさらに追加することができます。\n[詳細はこちら](https://bluemix.net/devops/getting-started)
 deploy.title: "サンプルのデプロイ・ステージ"
 deploy.longDescription: "Delivery Pipeline は、継続的デプロイメントを自動化します。"
 deploy.appDescription: "Hello World アプリの名前。"

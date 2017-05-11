@@ -1,6 +1,11 @@
 ---
 template.name: "[G'Ｄｅｐｌｏｙ ｔｏ Ｂluemix: {[{baseName}]} appฏูİı｜]"
-template.description: "[G'Ａ Ｂｌｕｅｍｉｘ ａｃｃｏｕｎｔ ｉｓ ｒｅｑｕｉｒｅｄ ｔｏ ｄｅｐｌｏy this application. To get started, click **Log In** or **Sign Up** at the top of this page.ฏู"İı｜]
+template.description: [G'|
+  Ｙｏｕｒ ａｐｐ ｗｉｌｌ ｂｅ ｅｎａｂｌｅｄ ｆｏｒ Ｃｏｎｔｉｎｕｏｕｓ Ｄｅｌｉｖｅｒｙ ｂｙ ｕｓｉｎｇ ｔｈｉｓ ｔｏｏｌｃｈａｉｎ. Ｔｈｅ ｔｏｏｌｃｈａｉｎ
+  ｉｎｃｌｕｄｅｓ ａ ｃｌｏｎｅ ｏｆ ｙour Git repo, a pipeline for building and deploying code changes,
+  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
+  toolchain, you can configure it and add more tools to it.ฏูİı｜]
+  [Learn more](https:[G'//ｂｌｕｅｍｉｘ.ｎｅｔ/ｄevops/getting-started).ฏูİı｜]
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
 deploy.appDescription: "[G'Ｔｈｅ ｎａｍｅ ｏｆ ｙour Hello World app.ฏูİı｜]"
