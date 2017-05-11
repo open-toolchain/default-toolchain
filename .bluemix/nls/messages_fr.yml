@@ -1,6 +1,6 @@
 ---
 template.name: "Déploiement dans Bluemix : application {{baseName}}"
-template.description: "Un compte Bluemix est requis pour déployer cette application. Pour commencer,\ncliquez sur **Connexion** ou **Enregistrement** en haut de cette page."
+template.description: Votre application sera activée pour Continuous Delivery en utilisant cette chaîne d'outils. La chaîne d'outils\ninclut un clone de votre référentiel Git, un pipeline pour générer et déployer les modifications de code,\nune interface IDE Web pour éditer le code sur le cloud et un dispositif de suivi des problèmes. Après avoir créé la\nchaîne d'outils, vous pouvez la configurer et lui ajouter plus d'outils.\n[En savoir plus](https://bluemix.net/devops/getting-started).
 deploy.title: "Etape de déploiement exemple"
 deploy.longDescription: "Delivery Pipeline automatise le déploiement en continu."
 deploy.appDescription: "Nom de votre appli Hello World."
