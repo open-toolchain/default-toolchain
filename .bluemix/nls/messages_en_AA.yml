@@ -1,35 +1,37 @@
 ---
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
 template.description: 2:|
-  This toolchain contains tools to develop and deploy your app. After you click **Create**,
-  your toolchain is shown, and you can click  **Delivery Pipeline** to watch your app as
-  it is deployed. When the pipeline is finished, click **View app** to see the running app.
+  Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
+  includes a clone of your Git repo, a pipeline for building and deploying code changes,
+  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
+  toolchain, you can configure it and add more tools to it.
+  [Learn more](https:3://bluemix.net/devops/getting-started).
   This toolchain uses tools that are part of the Continuous Delivery service.
   If an instance of that service isn't already in your organization, when you click
   **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the [Bluemix catalog](https:3://console.ng.bluemix.net/catalog/services/continuous-delivery/).
+  terms, see the [Bluemix catalog](https:4://console.ng.bluemix.net/catalog/services/continuous-delivery/).
   Still need to create a project at JazzHub? You can still
-  [create a project](https:4://hub.jazz.net/deploy?repository={[{repository}]}),
+  [create a project](https:5://hub.jazz.net/deploy?legacy&repository={[{repository}]}),
   but if you do, you must upgrade that project to a toolchain soon.
-toolchain.getting_started: 5:>-
-  This is the toolchain for your application. You can watch the pipeline deploy it
-  by clicking on the **Delivery Pipeline** tile below. Once the application is deployed,
-  you can click on the **View app** button to see it running.
-deploy.title: "6:Sample Deploy Stage"
-deploy.longDescription: "7:The Delivery Pipeline automates continuous deployment."
-deploy.appDescription: "8:The name of your Hello World app."
-deploy.appName: "9:App name"
-region: "10:Region"
-organization: "11:Organization"
-space: "12:Space"
-headerSVG.issueTracker: "13:ISSUE TRACKER"
-headerSVG.gitHub1: "14:GitHub"
-headerSVG.think: "15:THINK"
-headerSVG.code: "16:CODE"
-headerSVG.deliver: "17:DELIVER"
-headerSVG.run: "18:RUN"
-headerSVG.repository: "19:REPOSITORY"
-headerSVG.gitHub2: "20:GitHub"
-headerSVG.pipeline: "21:PIPELINE"
-headerSVG.bluemix: "22:BLUEMIX"
-headerSVG.webIde: "23:WEB IDE"
+toolchain.getting_started: 6:>-
+  **Your toolchain is ready! Quick start:7:** This toolchain was created for your app.
+  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
+  deployed, you can see it running by clicking **View app**.
+deploy.title: "8:Sample Deploy Stage"
+deploy.longDescription: "9:The Delivery Pipeline automates continuous deployment."
+deploy.appDescription: "10:The name of your Hello World app."
+deploy.appName: "11:App name"
+region: "12:Region"
+organization: "13:Organization"
+space: "14:Space"
+headerSVG.issueTracker: "15:ISSUE TRACKER"
+headerSVG.gitHub1: "16:GitHub"
+headerSVG.think: "17:THINK"
+headerSVG.code: "18:CODE"
+headerSVG.deliver: "19:DELIVER"
+headerSVG.run: "20:RUN"
+headerSVG.repository: "21:REPOSITORY"
+headerSVG.gitHub2: "22:GitHub"
+headerSVG.pipeline: "23:PIPELINE"
+headerSVG.bluemix: "24:BLUEMIX"
+headerSVG.webIde: "25:WEB IDE"
