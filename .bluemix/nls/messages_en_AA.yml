@@ -1,20 +1,22 @@
 ---
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
-template.description: 2:|
-  Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
+template.description: |
+  2:Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
   includes a clone of your Git repo, a pipeline for building and deploying code changes,
   a Web IDE for editing code on the cloud, and an issue tracker. After you create the
   toolchain, you can configure it and add more tools to it.
   [Learn more](https:3://bluemix.net/devops/getting-started).
+  
   This toolchain uses tools that are part of the Continuous Delivery service.
   If an instance of that service isn't already in your organization, when you click
   **Create**, it is automatically added at no cost to you. For more information and
   terms, see the [Bluemix catalog](https:4://console.ng.bluemix.net/catalog/services/continuous-delivery/).
+  
   Still need to create a project at JazzHub? You can still
   [create a project](https:5://hub.jazz.net/deploy?legacy&repository={[{repository}]}),
   but if you do, you must upgrade that project to a toolchain soon.
-toolchain.getting_started: 6:>-
-  **Your toolchain is ready! Quick start:7:** This toolchain was created for your app.
+toolchain.getting_started: >-
+  7:**Your toolchain is ready! Quick start:** This toolchain was created for your app.
   To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
   deployed, you can see it running by clicking **View app**.
 deploy.title: "8:Sample Deploy Stage"
