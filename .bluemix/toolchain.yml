@@ -13,7 +13,7 @@ template:
     git url: >-
       [{{repository}}]({{repository}})
 toolchain:
-  name: '{{baseName}}-{{timestamp}}'
+  name: '{{form.pipeline.parameters.app-name}}'
   template:
     getting_started:
       $ref: '#/messages/toolchain.getting_started'
@@ -50,6 +50,6 @@ form:
       dev-region: '{{region}}'
       dev-organization: '{{organization}}'
       dev-space: dev
-      app-name: '{{services.repo.parameters.repo_name}}'
+      app-name: '{{baseName}}-{{timestamp}}'
     schema:
       $ref: deploy.json
