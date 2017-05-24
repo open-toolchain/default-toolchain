@@ -1,8 +1,7 @@
 ---
 template.name: "部署至 Bluemix：{{baseName}} 應用程式"
-template.description: "您可以透過使用這個工具鏈，來啟用應用程式的「持續交付」。這個工具鏈\n包括 Git 儲存庫的複製、建置及部署程式碼變更的管線、\n在雲端上編輯程式碼的 Web IDE，以及問題追蹤器。建立工具鏈之後，\n您可以對它進行配置並新增更多工具。\n[進一步瞭解](https://bluemix.net/devops/getting-started)。\n此工具鏈使用 Continuous Delivery 服務的部分工具。\n當您按一下**建立**時如果組織中尚未具有該服務的實例，\n則將自動新增實例而不收取費用。如需相關資訊及術語，\n請參閱 [Bluemix 型錄](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。\n\n仍然需要在 JazzHub 上建立專案嗎？您仍然可以\n[建立專案](https://hub.jazz.net/deploy?legacy&repository={{repository}})，\n但是如果這樣做，您必須在不久之後將該專案升級至工具鏈。"
-toolchain.getting_started: >- 
-  **您的工具鏈已備妥！快速入門：** 已建立這個應用程式的工具鏈。若想要監看管線部署應用程式，請按一下 **Delivery Pipeline**。部署應用程式完成之後，您可以按一下**檢視應用程式**來查看應用程式執行中的情況。
+template.description: 按一下**部署**之後，您的應用程式將部署至 Bluemix。\n您的應用程式的程式碼會自動載入 Git 儲存庫。每次您將變更\n確定至儲存庫時，會使用與應用程式相關聯的工具鏈\n自動部署這些變更。您可以將更多的工具新增至工具鏈中，\n並與您的團隊一起共用它。[進一步瞭解](https://bluemix.net/devops/getting-started)。\n此工具鏈會使用屬於 Continuous Delivery 服務的工具。\n當您按一下**部署**時，如果組織中尚未具有該服務的實例，\n則將自動新增實例而不收取費用。如需相關資訊及術語，\n請參閱 [Bluemix 型錄](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。\n仍然需要在 JazzHub 上建立專案嗎？您仍然可以\n[建立專案](https://hub.jazz.net/deploy?legacy&repository={{repository}})，\n但是如果這樣做，您必須在不久之後將該專案升級至工具鏈。
+toolchain.getting_started: - **您的工具鏈已備妥！快速入門：** 已建立這個應用程式的工具鏈。若想要監看管線部署應用程式，請按一下 **Delivery Pipeline**。部署應用程式完成之後，您可以按一下**檢視應用程式**來查看應用程式執行中的情況。
 deploy.title: "範例部署階段"
 deploy.longDescription: "Delivery Pipeline 會自動執行連續部署。"
 deploy.appDescription: "Hello World 應用程式的名稱。"
