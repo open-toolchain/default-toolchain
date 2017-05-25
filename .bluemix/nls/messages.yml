@@ -12,10 +12,6 @@ template.description: |
   If an instance of that service isn't already in your organization, when you click
   **Deploy**, it is automatically added at no cost to you. For more information and
   terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).
-
-  Still need to create a project at JazzHub? You can still
-  [create a project](https://hub.jazz.net/deploy?legacy&repository={{repository}}),
-  but if you do, you must upgrade that project to a toolchain soon.
 toolchain.getting_started: >-
   **Your app is being created! Quick start:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
   deployed, you can see it running by clicking **View app**.
