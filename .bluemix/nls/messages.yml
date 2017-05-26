@@ -1,4 +1,5 @@
 ---
+# Note to the translators: Please keep the symbols '|', '>-' and blank line as it is. Those should not to be translated.
 template.name: "Deploy to Bluemix: {{baseName}} app"
 template.description: |
   After you click **Deploy**, your app will be deployed to Bluemix.
