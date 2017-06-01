@@ -1,6 +1,8 @@
----
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Implementar no Bluemix: app {{baseName}}"
-template.description: "Seu app será ativado para Entrega contínua usando essa cadeia de ferramentas. A cadeia de ferramentas\ninclui um clone do seu repositório Git, um pipeline para construção e implementação de mudanças de código,\num Web IDE para edição de código na nuvem e um rastreador de problemas. Após criar a\ncadeia de ferramentas, será possível configurá-la e incluir mais ferramentas nela.\n[Saiba mais](https://bluemix.net/devops/getting-started)."
+template.description: |
+  Seu app será ativado para Entrega contínua usando essa cadeia de ferramentas. A cadeia de ferramentas inclui um clone do seu repositório Git, um pipeline para construção e implementação de mudanças de código, um Web IDE para edição de código na nuvem e um rastreador de problemas. Após criar a cadeia de ferramentas, será possível configurá-la e incluir mais ferramentas nela. [Saiba mais](https://bluemix.net/devops/getting-started).
 deploy.title: "Estágio de Implementação de Amostra"
 deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
 deploy.appDescription: "O nome de seu app Hello World."

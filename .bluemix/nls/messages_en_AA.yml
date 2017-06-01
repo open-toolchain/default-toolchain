@@ -1,11 +1,8 @@
 ---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
 template.description: |
-  2:Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
-  includes a clone of your Git repo, a pipeline for building and deploying code changes,
-  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
-  toolchain, you can configure it and add more tools to it.
-  [Learn more](https:3://bluemix.net/devops/getting-started).
+  2:Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain includes a clone of your Git repo, a pipeline for building and deploying code changes, a Web IDE for editing code on the cloud, and an issue tracker. After you create the toolchain, you can configure it and add more tools to it. [Learn more](https:3://bluemix.net/devops/getting-started).
 deploy.title: "4:Sample Deploy Stage"
 deploy.longDescription: "5:The Delivery Pipeline automates continuous deployment."
 deploy.appDescription: "6:The name of your Hello World app."
