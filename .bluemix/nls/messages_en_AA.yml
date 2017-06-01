@@ -1,39 +1,27 @@
 ---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
 template.description: |
-  2:Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
-  includes a clone of your Git repo, a pipeline for building and deploying code changes,
-  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
-  toolchain, you can configure it and add more tools to it.
-  [Learn more](https:3://bluemix.net/devops/getting-started).
-  
-  This toolchain uses tools that are part of the Continuous Delivery service.
-  If an instance of that service isn't already in your organization, when you click
-  **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the [Bluemix catalog](https:4://console.ng.bluemix.net/catalog/services/continuous-delivery/).
-  
-  Still need to create a project at JazzHub? You can still
-  [create a project](https:5://hub.jazz.net/deploy?legacy&repository={[{repository}]}),
-  but if you do, you must upgrade that project to a toolchain soon.
+  2:After you click **Deploy**, your app will be deployed to Bluemix.
+  Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https:3://bluemix.net/devops/getting-started).
+  The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https:4://console.ng.bluemix.net/catalog/services/continuous-delivery/).
 toolchain.getting_started: >-
-  7:**Your toolchain is ready! Quick start:** This toolchain was created for your app.
-  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
-  deployed, you can see it running by clicking **View app**.
-deploy.title: "8:Sample Deploy Stage"
-deploy.longDescription: "9:The Delivery Pipeline automates continuous deployment."
-deploy.appDescription: "10:The name of your Hello World app."
-deploy.appName: "11:App name"
-region: "12:Region"
-organization: "13:Organization"
-space: "14:Space"
-headerSVG.issueTracker: "15:ISSUE TRACKER"
-headerSVG.gitHub1: "16:GitHub"
-headerSVG.think: "17:THINK"
-headerSVG.code: "18:CODE"
-headerSVG.deliver: "19:DELIVER"
-headerSVG.run: "20:RUN"
-headerSVG.repository: "21:REPOSITORY"
-headerSVG.gitHub2: "22:GitHub"
-headerSVG.pipeline: "23:PIPELINE"
-headerSVG.bluemix: "24:BLUEMIX"
-headerSVG.webIde: "25:WEB IDE"
+  5:**Your app is being created! Quick start:6:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.
+deploy.title: "7:Sample Deploy Stage"
+deploy.longDescription: "8:The Delivery Pipeline automates continuous deployment."
+deploy.appDescription: "9:The name of your Hello World app."
+deploy.appName: "10:App name"
+region: "11:Region"
+organization: "12:Organization"
+space: "13:Space"
+headerSVG.issueTracker: "14:ISSUE TRACKER"
+headerSVG.gitHub1: "15:GitHub"
+headerSVG.think: "16:THINK"
+headerSVG.code: "17:CODE"
+headerSVG.deliver: "18:DELIVER"
+headerSVG.run: "19:RUN"
+headerSVG.repository: "20:REPOSITORY"
+headerSVG.gitHub2: "21:GitHub"
+headerSVG.pipeline: "22:PIPELINE"
+headerSVG.bluemix: "23:BLUEMIX"
+headerSVG.webIde: "24:WEB IDE"

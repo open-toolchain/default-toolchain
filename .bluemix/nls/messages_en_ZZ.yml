@@ -1,24 +1,12 @@
 ---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "[G'Ｄｅｐｌｏｙ ｔｏ Ｂluemix: {[{baseName}]} appฏูİı｜]"
 template.description: |
-  [G'Ｙｏｕｒ ａｐｐ ｗｉｌｌ ｂｅ ｅｎａｂｌｅｄ ｆｏｒ Ｃｏｎｔｉｎｕｏｕｓ Ｄｅｌｉｖｅｒｙ ｂｙ ｕｓｉｎｇ ｔｈｉｓ ｔｏｏｌｃｈａｉｎ. Ｔｈｅ ｔｏｏｌｃｈａｉｎ
-  ｉｎｃｌｕｄｅｓ ａ ｃｌｏｎｅ ｏｆ ｙour Git repo, a pipeline for building and deploying code changes,
-  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
-  toolchain, you can configure it and add more tools to it.ฏูİı｜]
-  [Learn more](https:[G'//ｂｌｕｅｍｉｘ.ｎｅｔ/ｄevops/getting-started).ฏูİı｜]
-  
-  This toolchain uses tools that are part of the Continuous Delivery service.
-  If an instance of that service isn't already in your organization, when you click
-  **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the [Bluemix catalog](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅmix.net/catalog/services/continuous-delivery/).ฏูİı｜]
-  
-  Still need to create a project at JazzHub? You can still
-  [create a project](https:[G'//ｈｕｂ.ｊａｚｚ.ｎｅｔ/ｄeploy?legacy&repository={[{repository}]}),ฏูİı｜]
-  but if you do, you must upgrade that project to a toolchain soon.
+  [G'Ａｆｔｅｒ ｙｏｕ ｃｌｉｃｋ **Deploy**, your app will be deployed to Bluemix.ฏูİı｜]
+  Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https:[G'//ｂｌｕｅｍｉｘ.ｎｅｔ/ｄevops/getting-started).ฏูİı｜]
+  The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅmix.net/catalog/services/continuous-delivery/).ฏูİı｜]
 toolchain.getting_started: >-
-  [G'ฏูİı｜]**Your toolchain is ready! Quick start:[G'** Ｔｈｉｓ ｔｏｏｌｃｈａin was created for your app.ฏูİı｜]
-  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
-  deployed, you can see it running by clicking **View app**.
+  **Your app is being created! Quick start:[G'** Ｔｏ ｗａｔｃｈ ｔｈｅ ｐｉｐｅｌｉｎｅ ｄｅｐｌｏｙ ｙｏｕｒ ａｐｐ, ｃｌｉck **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.ฏูİı｜]
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
 deploy.appDescription: "[G'Ｔｈｅ ｎａｍｅ ｏｆ ｙour Hello World app.ฏูİı｜]"

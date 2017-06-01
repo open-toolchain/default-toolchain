@@ -1,39 +1,27 @@
 ---
-template.name: "Deploy to Bluemix: {[{baseName}]} app~otc-ui549"
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+template.name: "Deploy to Bluemix: {[{baseName}]} app~otc-ui598"
 template.description: |
-  Your app will be enabled for Continuous Delivery by using this toolchain. The toolchain
-  includes a clone of your Git repo, a pipeline for building and deploying code changes,
-  a Web IDE for editing code on the cloud, and an issue tracker. After you create the
-  toolchain, you can configure it and add more tools to it.~otc-ui550
-  [Learn more](https://bluemix.net/devops/getting-started).~otc-ui551
-  
-  This toolchain uses tools that are part of the Continuous Delivery service.
-  If an instance of that service isn't already in your organization, when you click
-  **Create**, it is automatically added at no cost to you. For more information and
-  terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).~otc-ui552
-  
-  Still need to create a project at JazzHub? You can still
-  [create a project](https://hub.jazz.net/deploy?legacy&repository={[{repository}]}),~otc-ui553
-  but if you do, you must upgrade that project to a toolchain soon.
+  After you click **Deploy**, your app will be deployed to Bluemix.~otc-ui599
+  Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https://bluemix.net/devops/getting-started).~otc-ui600
+  The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).~otc-ui601
 toolchain.getting_started: >-
-  ~otc-ui554**Your toolchain is ready! Quick start:** This toolchain was created for your app.~otc-ui555
-  To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is
-  deployed, you can see it running by clicking **View app**.
-deploy.title: "Sample Deploy Stage~otc-ui556"
-deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui557"
-deploy.appDescription: "The name of your Hello World app.~otc-ui558"
-deploy.appName: "App name~otc-ui559"
-region: "Region~otc-ui560"
-organization: "Organization~otc-ui561"
-space: "Space~otc-ui562"
-headerSVG.issueTracker: "ISSUE TRACKER~otc-ui563"
-headerSVG.gitHub1: "GitHub~otc-ui564"
-headerSVG.think: "THINK~otc-ui565"
-headerSVG.code: "CODE~otc-ui566"
-headerSVG.deliver: "DELIVER~otc-ui567"
-headerSVG.run: "RUN~otc-ui568"
-headerSVG.repository: "REPOSITORY~otc-ui569"
-headerSVG.gitHub2: "GitHub~otc-ui570"
-headerSVG.pipeline: "PIPELINE~otc-ui571"
-headerSVG.bluemix: "BLUEMIX~otc-ui572"
-headerSVG.webIde: "WEB IDE~otc-ui573"
+  **Your app is being created! Quick start:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.~otc-ui603
+deploy.title: "Sample Deploy Stage~otc-ui604"
+deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui605"
+deploy.appDescription: "The name of your Hello World app.~otc-ui606"
+deploy.appName: "App name~otc-ui607"
+region: "Region~otc-ui608"
+organization: "Organization~otc-ui609"
+space: "Space~otc-ui610"
+headerSVG.issueTracker: "ISSUE TRACKER~otc-ui611"
+headerSVG.gitHub1: "GitHub~otc-ui612"
+headerSVG.think: "THINK~otc-ui613"
+headerSVG.code: "CODE~otc-ui614"
+headerSVG.deliver: "DELIVER~otc-ui615"
+headerSVG.run: "RUN~otc-ui616"
+headerSVG.repository: "REPOSITORY~otc-ui617"
+headerSVG.gitHub2: "GitHub~otc-ui618"
+headerSVG.pipeline: "PIPELINE~otc-ui619"
+headerSVG.bluemix: "BLUEMIX~otc-ui620"
+headerSVG.webIde: "WEB IDE~otc-ui621"

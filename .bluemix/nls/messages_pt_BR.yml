@@ -1,9 +1,14 @@
----
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Implementar no Bluemix: app {{baseName}}"
-template.description: "Seu app será ativado para Entrega contínua usando essa cadeia de ferramentas. A cadeia de ferramentas\ninclui um clone do seu repositório Git, um pipeline para construção e implementação de mudanças de código,\num Web IDE para edição de código na nuvem e um rastreador de problemas. Após criar a\ncadeia de ferramentas, será possível configurá-la e incluir mais ferramentas nela.\n[Saiba mais](https://bluemix.net/devops/getting-started).\nEssa cadeia de ferramentas usa ferramentas que são parte do serviço Entrega contínua.\nSe uma instância desse serviço ainda não estiver em sua organização, ao clicar em\n**Criar**, ela será incluída automaticamente gratuitamente para você. Para obter mais informações e\ntermos, veja o [catálogo do Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).\n\nAinda precisa criar um projeto no JazzHub? Ainda será possível\n[criar um projeto](https://hub.jazz.net/deploy?legacy&repository={{repository}}),\nmas, se você fizer isso, logo deve-se fazer upgrade desse projeto para uma cadeia de ferramentas."
-toolchain.getting_started: >- 
-  **Sua cadeia de ferramentas está pronta! Iniciação rápida:** essa cadeia de ferramentas foi criada para seu app. 
-  Para ver o pipeline implementar seu app, clique em **Delivery Pipeline**. Após o app ser implementado, será possível vê-lo em execução clicando em **Visualizar app**.
+template.description: |
+  Após clicar em **Implementar**, seu app será implementado no Bluemix.
+
+  O código do seu app será automaticamente carregado em um repositório Git. A cada vez que você confirmar mudanças no repositório, elas serão automaticamente implementadas usando uma cadeia de ferramentas associada a seu app. É possível incluir mais ferramentas na cadeia de ferramentas e compartilhá-las com sua equipe. [Saiba mais](https://bluemix.net/devops/getting-started).
+
+  A cadeia de ferramentas usa ferramentas que fazem parte do serviço Continuous Delivery. Se uma instância desse serviço ainda não estiver em sua organização, ao clicar em **Implementar**, ela será incluída automaticamente sem encargos para você. Para obter mais informações e termos, consulte o [catálogo do Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).
+toolchain.getting_started: >-
+  **Seu app está sendo criado! Iniciação rápida:** para ver o pipeline implementar seu app, clique em **Delivery Pipeline**. Após o app ser implementado, será possível vê-lo em execução clicando em **Visualizar app**.
 deploy.title: "Estágio de Implementação de Amostra"
 deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
 deploy.appDescription: "O nome de seu app Hello World."
