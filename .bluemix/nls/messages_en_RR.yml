@@ -5,7 +5,7 @@ template.description: |
   After you click **Deploy**, your app will be deployed to Bluemix.~otc-ui599
   Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https://bluemix.net/devops/getting-started).~otc-ui600
   The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).~otc-ui601
-toolchain.getting_started: >-~otc-ui602
+toolchain.getting_started: >-
   **Your app is being created! Quick start:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.~otc-ui603
 deploy.title: "Sample Deploy Stage~otc-ui604"
 deploy.longDescription: "The Delivery Pipeline automates continuous deployment.~otc-ui605"
