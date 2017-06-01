@@ -1,12 +1,12 @@
 ---
 # Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "1:Deploy to Bluemix: {[{baseName}]} app"
-template.description: 2:|
-  After you click **Deploy**, your app will be deployed to Bluemix.
+template.description: |
+  2:After you click **Deploy**, your app will be deployed to Bluemix.
   Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https:3://bluemix.net/devops/getting-started).
   The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https:4://console.ng.bluemix.net/catalog/services/continuous-delivery/).
-toolchain.getting_started: 5:>-
-  **Your app is being created! Quick start:6:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.
+toolchain.getting_started: >-
+  5:**Your app is being created! Quick start:6:** To watch the pipeline deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.
 deploy.title: "7:Sample Deploy Stage"
 deploy.longDescription: "8:The Delivery Pipeline automates continuous deployment."
 deploy.appDescription: "9:The name of your Hello World app."
