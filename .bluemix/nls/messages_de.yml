@@ -1,9 +1,23 @@
 ---
 template.name: "In Bluemix bereitstellen: App {{baseName}}"
-template.description: "Die App wird mit dieser Toolchain für Continuous Delivery aktiviert. Die Toolchain\nenthält einen Klon Ihres Git-Repositorys, eine Pipeline für den Build und die Bereitstellung von Codeänderungen,\neine Web-IDE für die Bearbeitung von Code in der Cloud und einen Problemtracker. Nach der Erstellung der\nToolchain können Sie sie konfigurieren und weitere Tools hinzufügen.\n[Weitere Informationen](https://bluemix.net/devops/getting-started).\nDiese Toolchain verwendet Tools, die Teil des Continuous Delivery-Service sind.\nWenn sich noch keine Instanz dieses Service in Ihrer Organisation befindet, wird sie automatisch hinzugefügt,\nwenn Sie auf **Erstellen** klicken, ohne dass für Sie Kosten anfallen. Weitere Informationen und\nBedingungen finden Sie im [Bluemix-Katalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).\n\nMüssen Sie weiterhin ein Projekt unter JazzHub erstellen? Sie können weiterhin\n[ein Projekt erstellen](https://hub.jazz.net/deploy?legacy&repository={{repository}}),\nmüssen in diesem Fall aber in Kürze für dieses Projekt ein Upgrade auf eine Toolchain durchführen."
+template.description: |
+  Nachdem Sie auf **Bereitstellen** geklickt haben, wird Ihre App in Bluemix bereitgestellt.
+
+  Der Code Ihrer App wird automatisch in ein Git-Repository geladen. Bei jedem Festschreiben von
+  Änderungen im Repository werden die Änderungen automatisch mit einer Toolchain bereitgestellt,
+  die Ihrer App zugeordnet ist. Sie können der Toolchain weitere Tools hinzufügen und sie mit 
+  Ihrem Team teilen. [Erfahren Sie mehr](https://bluemix.net/devops/getting-started).
+
+  Diese Toolchain verwendet Tools, die Teil des Continuous Delivery-Service sind. Wenn sich noch 
+  keine Instanz dieses Service in Ihrer Organisation befindet, wird sie automatisch hinzugefügt,
+  wenn Sie auf **Bereitstellen** klicken, ohne dass für Sie Kosten anfallen. Weitere Informationen
+  und Bedingungen finden Sie im [Bluemix-Katalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/). 
+  
+  Müssen Sie weiterhin ein Projekt unter JazzHub erstellen? Sie können weiterhin
+  [ein Projekt erstellen](https://hub.jazz.net/deploy?legacy&repository={{repository}}), müssen in diesem
+  Fall aber in Kürze für dieses Projekt ein Upgrade auf eine Toolchain durchführen.
 toolchain.getting_started: >-
-  **Ihre Toolchain ist bereit! Schnelleinstieg:** Diese Toolchain wurde für Ihre App erstellt.
-  Wenn Sie die Bereitstellung durch die Pipeline beobachten möchten, klicken Sie auf **Delivery Pipeline**.
+  **Ihre App wird erstellt! Schnelleinstieg:** Wenn Sie die Bereitstellung Ihrer App durch die Pipeline beobachten möchten, klicken Sie auf **Delivery Pipeline**.
   Nach der Bereitstellung der App können Sie deren Ausführung beobachten, indem Sie auf **App anzeigen** klicken.
 deploy.title: "Beispielbereitstellungsphase"
 deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."

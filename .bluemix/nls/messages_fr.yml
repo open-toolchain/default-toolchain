@@ -1,9 +1,14 @@
----
+﻿---
+# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Déploiement dans Bluemix : application {{baseName}}"
-template.description: "Votre application sera activée pour Continuous Delivery en utilisant cette chaîne d'outils. La chaîne d'outils\ninclut un clone de votre référentiel Git, un pipeline pour générer et déployer les modifications de code,\nune interface IDE Web pour éditer le code sur le cloud et un dispositif de suivi des problèmes. Après avoir créé la\nchaîne d'outils, vous pouvez la configurer et lui ajouter plus d'outils.\n[En savoir plus](https://bluemix.net/devops/getting-started).\nCette chaîne d'outils utilise des outils qui ne font pas partie du service Continuous Delivery.\nSi aucune instance de ce service n'existe dans votre organisation, elle est automatiquement ajoutée, sans aucun frais, lorsque vous cliquez sur\n**Créer**. Pour plus d'informations et pour obtenir les\ndispositions applicables, consultez le [catalogue Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).\n\nVous avez encore besoin de créer un projet sur JazzHub ? Vous pouvez toujours\n[créer un projet](https://hub.jazz.net/deploy?legacy&repository={{repository}}),\nmais vous devrez bientôt le mettre à niveau vers une chaîne d'outils."
-toolchain.getting_started: >-
-  **Votre chaîne d'outils est prête ! Démarrage rapide :** Cette chaîne d'outils a été créée pour votre application.
-  Pour voir le pipeline déployer votre application, cliquez sur **Delivery Pipeline**. Une fois l'application déployée, vous pouvez visualiser son exécution en cliquant sur **Afficher l'appli**.
+template.description: |
+  Une fois que vous avez cliqué sur **Déployer**, votre application est déployée dans Bluemix.
+
+  Le code de votre application est automatiquement chargé dans un référentiel Git. Chaque fois que vous validez des modifications dans le référentiel, elles sont automatiquement déployées à l'aide d'une chaîne d'outils qui est associée à votre application. Vous pouvez ajouter davantage d'outils à la chaîne d'outils et la partager avec votre équipe. [En savoir plus](https://bluemix.net/devops/getting-started).
+
+  La chaîne d'outils utilise des outils qui font partie du service Continuous Delivery. Si aucune instance de ce service n'existe dans votre organisation, elle est automatiquement ajoutée, sans aucun frais, lorsque vous cliquez sur **Déployer**. Pour plus d'informations et pour obtenir les dispositions applicables, consultez le [catalogue Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).
+toolchain.getting_started: >- 
+  **Votre application est en cours de création ! Démarrage rapide :** Pour voir le pipeline déployer votre application, cliquez sur **Delivery Pipeline**. Une fois l'application déployée, vous pouvez visualiser son exécution en cliquant sur **Afficher l'appli**.
 deploy.title: "Etape de déploiement exemple"
 deploy.longDescription: "Delivery Pipeline automatise le déploiement en continu."
 deploy.appDescription: "Nom de votre appli Hello World."
