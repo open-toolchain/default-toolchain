@@ -1,14 +1,7 @@
-﻿---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+---
 template.name: "部署至 Bluemix：{{baseName}} 應用程式"
-template.description: |
-  按一下**部署**之後，您的應用程式將部署至 Bluemix。
-  
-  您的應用程式的程式碼會自動載入 Git 儲存庫。每次您將變更確定至儲存庫時，會使用與應用程式相關聯的工具鏈自動部署這些變更。您可以將更多的工具新增至工具鏈中，並與您的團隊一起共用它。[進一步瞭解](https://bluemix.net/devops/getting-started)。
-  
-  此工具鏈會使用屬於 Continuous Delivery 服務的工具。當您按一下**部署**時如果組織中尚未具有該服務的實例，則將自動新增實例而不收取費用。如需相關資訊及術語，請參閱 [Bluemix 型錄](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。
-toolchain.getting_started: >-
-  **您的應用程式已順利建立！快速入門：** 若想要監看管線部署應用程式，請按一下 **Delivery Pipeline**。部署應用程式完成之後，您可以按一下**檢視應用程式**來查看應用程式執行中的情況。
+template.description: "按一下**部署**之後，您的應用程式將部署至 Bluemix。\n\n您的應用程式的程式碼會自動載入 Git 儲存庫。每次您將變更確定至儲存庫時，會使用與應用程式相關聯的工具鏈自動部署這些變更。您可以將更多的工具新增至工具鏈中，並與您的團隊一起共用它。[進一步瞭解](https://bluemix.net/devops/getting-started)。\n\n此工具鏈會使用屬於 Continuous Delivery 服務的工具。當您按一下**部署**時如果組織中尚未具有該服務的實例，則將自動新增實例而不收取費用。如需相關資訊及術語，請參閱 [Bluemix 型錄](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)。"
+toolchain.getting_started: "**您的應用程式已順利建立！快速入門：** 若想要監看管線部署應用程式，請按一下 **Delivery Pipeline**。部署應用程式完成之後，您可以按一下**檢視應用程式**來查看應用程式執行中的情況。"
 deploy.title: "範例部署階段"
 deploy.longDescription: "Delivery Pipeline 會自動執行連續部署。"
 deploy.appDescription: "Hello World 應用程式的名稱。"
