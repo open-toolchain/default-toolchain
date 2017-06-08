@@ -1,12 +1,7 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "[G'Ｄｅｐｌｏｙ ｔｏ Ｂluemix: {[{baseName}]} appฏูİı｜]"
-template.description: |
-  [G'Ａｆｔｅｒ ｙｏｕ ｃｌｉｃｋ **Deploy**, your app will be deployed to Bluemix.ฏูİı｜]
-  Your app's code will be automatically loaded into a Git repo. Each time you commit changes to the repo, they are automatically deployed by using a toolchain that isassociated with your app. You can add more tools to the toolchain and share it with your team. [Learn more](https:[G'//ｂｌｕｅｍｉｘ.ｎｅｔ/ｄevops/getting-started).ฏูİı｜]
-  The toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https:[G'//ｃｏｎｓｏｌｅ.ｎｇ.ｂｌｕｅmix.net/catalog/services/continuous-delivery/).ฏูİı｜]
-toolchain.getting_started: >-
-  **Your app is being created! Quick start:[G'** Ｔｏ ｗａｔｃｈ ｔｈｅ ｐｉｐｅｌｉｎｅ ｄｅｐｌｏｙ ｙｏｕｒ ａｐｐ, ｃｌｉck **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.ฏูİı｜]
+template.description: "[G'Ａｆｔｅｒ ｙｏｕ ｃｌｉｃｋ **Ｄｅｐｌｏｙ**, ｙｏｕｒ ａｐｐ ｗｉｌｌ ｂｅ ｄｅｐｌｏｙｅｄ ｔｏ Ｂｌｕｅｍｉｘ.\n\nＹｏｕｒ ａｐｐ'ｓ ｃｏｄｅ ｗｉｌｌ ｂｅ ａｕｔｏｍａｔｉｃａｌｌｙ ｌｏａｄｅｄ ｉｎｔｏ ａ Ｇｉｔ ｒｅｐｏ. Ｅａｃｈ ｔｉｍｅ ｙｏｕ ｃｏｍｍｉｔ ｃｈａｎｇｅｓ ｔｏ ｔｈｅ ｒｅｐｏ, ｔｈｅｙ ａｒｅ ａｕｔｏｍａｔｉｃａｌｌｙ ｄｅｐｌｏｙｅｄ ｂｙ ｕｓｉｎｇ ａ ｔｏｏｌｃｈａｉｎ ｔｈａｔ ｉｓａｓｓｏｃｉａｔｅｄ ｗｉｔｈ ｙｏｕｒ ａｐｐ. Ｙｏｕ ｃａｎ add more tools to the toolchain and share it with your team. [Learn more](https://bluemix.net/devops/getting-started).\n\nThe toolchain uses tools that are part of the Continuous Delivery service. If an instance of that service isn't already in your organization, when you click **Deploy**, it is automatically added at no cost to you. For more information and terms, see the [Bluemix catalog](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).ฏูİı｜]"
+toolchain.getting_started: "[G'**Ｙｏｕｒ ａｐｐ ｉｓ ｂｅｉｎｇ ｃｒｅａｔｅｄ! Ｑｕｉｃｋ ｓｔａｒｔ:** Ｔｏ ｗａｔｃｈ ｔｈｅ ｐｉｐｅｌｉne deploy your app, click **Delivery Pipeline**. After the app is deployed, you can see it running by clicking **View app**.ฏูİı｜]"
 deploy.title: "[G'Ｓａｍｐｌｅ Deploy Stageฏูİı｜]"
 deploy.longDescription: "[G'Ｔｈｅ Ｄｅｌｉｖｅｒｙ Ｐipeline automates continuous deployment.ฏูİı｜]"
 deploy.appDescription: "[G'Ｔｈｅ ｎａｍｅ ｏｆ ｙour Hello World app.ฏูİı｜]"

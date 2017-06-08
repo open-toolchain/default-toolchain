@@ -1,14 +1,7 @@
-﻿---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+---
 template.name: "Implementar no Bluemix: app {{baseName}}"
-template.description: |
-  Após clicar em **Implementar**, seu app será implementado no Bluemix.
-
-  O código do seu app será automaticamente carregado em um repositório Git. A cada vez que você confirmar mudanças no repositório, elas serão automaticamente implementadas usando uma cadeia de ferramentas associada a seu app. É possível incluir mais ferramentas na cadeia de ferramentas e compartilhá-las com sua equipe. [Saiba mais](https://bluemix.net/devops/getting-started).
-
-  A cadeia de ferramentas usa ferramentas que fazem parte do serviço Continuous Delivery. Se uma instância desse serviço ainda não estiver em sua organização, ao clicar em **Implementar**, ela será incluída automaticamente sem encargos para você. Para obter mais informações e termos, consulte o [catálogo do Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/).
-toolchain.getting_started: >-
-  **Seu app está sendo criado! Iniciação rápida:** para ver o pipeline implementar seu app, clique em **Delivery Pipeline**. Após o app ser implementado, será possível vê-lo em execução clicando em **Visualizar app**.
+template.description: "Após clicar em **Implementar**, seu app será implementado no Bluemix.\n\nO código do seu app será automaticamente carregado em um repositório Git. A cada vez que você confirmar mudanças no repositório, elas serão automaticamente implementadas usando uma cadeia de ferramentas associada a seu app. É possível incluir mais ferramentas na cadeia de ferramentas e compartilhá-las com sua equipe. [Saiba mais](https://bluemix.net/devops/getting-started).\n\nA cadeia de ferramentas usa ferramentas que fazem parte do serviço Continuous Delivery. Se uma instância desse serviço ainda não estiver em sua organização, ao clicar em **Implementar**, ela será incluída automaticamente sem encargos para você. Para obter mais informações e termos, consulte o [catálogo do Bluemix](https://console.ng.bluemix.net/catalog/services/continuous-delivery/)."
+toolchain.getting_started: "**Seu app está sendo criado! Iniciação rápida:** para ver o pipeline implementar seu app, clique em **Delivery Pipeline**. Após o app ser implementado, será possível vê-lo em execução clicando em **Visualizar app**."
 deploy.title: "Estágio de Implementação de Amostra"
 deploy.longDescription: "O Delivery Pipeline automatiza a implementação contínua."
 deploy.appDescription: "O nome de seu app Hello World."
@@ -18,12 +11,12 @@ organization: "Organização"
 space: "Espaço"
 headerSVG.issueTracker: "RASTREADOR DE PROBLEMA"
 headerSVG.gitHub1: "GitHub"
-headerSVG.think: "THINK"
+headerSVG.think: "PENSAR"
 headerSVG.code: "ERRO"
-headerSVG.deliver: "DELIVER"
+headerSVG.deliver: "ENTREGAR"
 headerSVG.run: "EXECUTAR"
-headerSVG.repository: "REPOSITORY"
+headerSVG.repository: "REPOSITÓRIO"
 headerSVG.gitHub2: "GitHub"
-headerSVG.pipeline: "OLEODUTO"
+headerSVG.pipeline: "PIPELINE"
 headerSVG.bluemix: "BLUEMIX"
 headerSVG.webIde: "WEB IDE"
