@@ -1,8 +1,6 @@
 ---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
 template.name: "Bluemix にデプロイ: {{baseName}} アプリ"
-template.description: |
- このツールチェーンを使用すると、ご使用のアプリは Continuous Delivery に対応します。ツールチェーンには Git リポジトリーの複製、コード変更をビルドおよびデプロイするためのパイプライン、クラウド上でコードを編集するための Web IDE、および課題トラッカーが含まれています。ツールチェーンを作成した後、そのツールチェーンを構成し、ツールをさらに追加することができます。詳しくは、[ここ](https://bluemix.net/devops/getting-started)を参照してください。
+template.description: "このツールチェーンを使用すると、ご使用のアプリは Continuous Delivery に対応します。ツールチェーンには Git リポジトリーの複製、コード変更をビルドおよびデプロイするためのパイプライン、クラウド上でコードを編集するための Web IDE、および課題トラッカーが含まれています。ツールチェーンを作成した後、そのツールチェーンを構成し、ツールをさらに追加することができます。詳しくは、[ここ](https://bluemix.net/devops/getting-started)を参照してください。"
 deploy.title: "サンプルのデプロイ・ステージ"
 deploy.longDescription: "Delivery Pipeline は、継続的デプロイメントを自動化します。"
 deploy.appDescription: "Hello World アプリの名前。"

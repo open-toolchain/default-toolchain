@@ -1,8 +1,6 @@
-﻿---
-# Note to the translators: Please keep the symbols '|', '>-' and blank lines as it is. Those should not to be translated.
+---
 template.name: "部署至 Bluemix：{{baseName}} 應用程式"
-template.description: |
-  您可以透過使用這個工具鏈，來啟用應用程式的「持續交付」。這個工具鏈包括 Git 儲存庫的複製、建置及部署程式碼變更的管線、在雲端上編輯程式碼的 Web IDE，以及問題追蹤器。建立工具鏈之後，您可以對它進行配置並新增更多工具。[進一步瞭解](https://bluemix.net/devops/getting-started)。
+template.description: "您可以透過使用這個工具鏈，來啟用應用程式的「持續交付」。這個工具鏈包括 Git 儲存庫的複製、建置及部署程式碼變更的管線、在雲端上編輯程式碼的 Web IDE，以及問題追蹤器。建立工具鏈之後，您可以對它進行配置並新增更多工具。[進一步瞭解](https://bluemix.net/devops/getting-started)。"
 deploy.title: "範例部署階段"
 deploy.longDescription: "Delivery Pipeline 會自動執行連續部署。"
 deploy.appDescription: "Hello World 應用程式的名稱。"
