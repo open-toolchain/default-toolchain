@@ -12,7 +12,7 @@ template:
     - repo
   info:
     git url: >-
-      [{{repository}}]({{repository}})
+      [https://github.com/open-toolchain/default-toolchain](https://github.com/open-toolchain/default-toolchain)
 toolchain:
   name: '{{baseName}}-{{timestamp}}'
   template:
