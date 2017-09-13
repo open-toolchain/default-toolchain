@@ -39,6 +39,7 @@ services:
           $text: pipeline.yml
         env:
           REPO: repo
+          BRANCH: '{{branch}}'
           CF_APP: '{{form.pipeline.parameters.app-name}}'
           CF_SPACE: '{{form.pipeline.parameters.dev-space}}'
           CF_ORGANIZATION: '{{form.pipeline.parameters.dev-organization}}'
