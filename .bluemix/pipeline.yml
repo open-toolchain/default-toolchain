@@ -3,7 +3,7 @@ stages:
 - name: Build Stage
   inputs:
   - type: git
-    branch: master
+    branch: ${BRANCH}
     service: ${REPO}
   jobs:
   - name: Build
