@@ -23,6 +23,12 @@
             "description": "The bluemix space",
             "type": "string"
         },
+        "api-key": {
+            "description": {
+                "$ref": "#/messages/deploy.apiKeyDescription"
+            },
+            "type": "string"
+        },
         "app-name": {
             "description": {
                 "$ref": "#/messages/deploy.appDescription"
@@ -34,7 +40,8 @@
         "dev-region",
         "dev-organization",
         "dev-space",
-        "app-name"
+        "app-name",
+        "api-key"
     ],
     "form": [
         {
@@ -48,6 +55,14 @@
                 "$ref": "#/messages/deploy.appName"
             },
             "key": "app-name"
+        },
+         {
+	        "type": "password",
+	        "readonly": false,
+	        "title": {
+                   "$ref": "#/messages/deploy.apiKeyTitle"
+                },
+	        "key": "api-key"
         },
         {
             "type": "table",
