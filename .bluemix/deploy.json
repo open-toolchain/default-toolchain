@@ -12,15 +12,15 @@
     "type": "object",
     "properties": {
         "dev-region": {
-            "description": "The bluemix region",
+            "description": "The IBM Cloud CF region",
             "type": "string"
         },
         "dev-organization": {
-            "description": "The bluemix org",
+            "description": "The IBM Cloud CF org",
             "type": "string"
         },
         "dev-space": {
-            "description": "The bluemix space",
+            "description": "The IBM Cloud CF space",
             "type": "string"
         },
         "api-key": {
