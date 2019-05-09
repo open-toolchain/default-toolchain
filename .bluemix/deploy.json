@@ -12,15 +12,21 @@
     "type": "object",
     "properties": {
         "dev-region": {
-            "description": "The IBM Cloud CF region",
+            "description": {
+                "$ref":"#/messages/deploy.region"
+             },
             "type": "string"
         },
         "dev-organization": {
-            "description": "The IBM Cloud CF org",
+            "description": {
+                "$ref":"#/messages/deploy.org"
+             },
             "type": "string"
         },
         "dev-space": {
-            "description": "The IBM Cloud CF space",
+            "description": {
+                "$ref":"#/messages/deploy.space"
+             },
             "type": "string"
         },
         "api-key": {
