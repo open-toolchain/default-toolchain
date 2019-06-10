@@ -13,27 +13,42 @@
     "properties": {
         "dev-region": {
             "description": {
-                "$ref":"#/messages/deploy.region"
-             },
-            "type": "string"
+                "$ref": "#/messages/deploy.region"
+            },
+            "type": "string",
+            "validator": {
+                "v-type": "cf-region",
+                "params": ["api-key"]
+            }
         },
         "dev-organization": {
             "description": {
-                "$ref":"#/messages/deploy.org"
-             },
-            "type": "string"
+                "$ref": "#/messages/deploy.org"
+            },
+            "type": "string",
+            "validator": {
+                "v-type": "cf-org",
+                "params": ["dev-region"]
+            }
         },
         "dev-space": {
             "description": {
-                "$ref":"#/messages/deploy.space"
-             },
-            "type": "string"
+                "$ref": "#/messages/deploy.space"
+            },
+            "type": "string",
+            "validator": {
+                "v-type": "cf-space",
+                "params": ["dev-organization"]
+            }
         },
         "api-key": {
             "description": {
                 "$ref": "#/messages/deploy.apiKeyDescription"
             },
-            "type": "string"
+            "type": "string",
+            "validator": {
+                "v-type": "api-key"
+            }
         },
         "app-name": {
             "description": {
@@ -49,10 +64,9 @@
         "app-name",
         "api-key"
     ],
-    "form": [
-        {
+    "form": [{
             "type": "validator",
-            "url": "/devops/setup/bm-helper/helper.html"
+            "url": "/devops/setup/bm-helper/validator-v1.html"
         },
         {
             "type": "text",
@@ -62,13 +76,13 @@
             },
             "key": "app-name"
         },
-         {
-	        "type": "password",
-	        "readonly": false,
-	        "title": {
-                   "$ref": "#/messages/deploy.apiKeyTitle"
-                },
-	        "key": "api-key"
+        {
+            "type": "password",
+            "readonly": false,
+            "title": {
+                "$ref": "#/messages/deploy.apiKeyTitle"
+            },
+            "key": "api-key"
         },
         {
             "type": "table",
@@ -78,8 +92,7 @@
                 "28%",
                 "28%"
             ],
-            "items": [
-                {
+            "items": [{
                     "type": "label",
                     "title": {
                         "$ref": "#/messages/region"
@@ -87,7 +100,7 @@
                 },
                 {
                     "type": "label",
-                     "title": {
+                    "title": {
                         "$ref": "#/messages/organization"
                     }
                 },
