@@ -5,6 +5,8 @@ stages:
   - type: git
     branch: ${BRANCH}
     service: ${REPO}
+  triggers:
+  - type: commit
   jobs:
   - name: Build
     type: builder
