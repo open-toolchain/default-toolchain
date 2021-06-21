@@ -11,8 +11,9 @@ template:
     - build
     - repo
   info:
-    git url: >-
-      [https://github.com/open-toolchain/default-toolchain](https://github.com/open-toolchain/default-toolchain)
+    git url: >
+      "[" + $env.repository + "]" +
+        "(" + $env.repository + ")"
 toolchain:
   name: '{{baseName}}-{{timestamp}}'
   template:
